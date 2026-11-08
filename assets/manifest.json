@@ -1,0 +1,110 @@
+{
+  "pipeline": "MiniMax image-01 → Lux3D G1 → gltf-transform",
+  "items": [
+    {
+      "id": "patient",
+      "cap": "transplant",
+      "key": "patient",
+      "tags": [
+        "patient"
+      ],
+      "file": "models/patient.glb",
+      "bytes": 4278240,
+      "rawBytes": 11035128,
+      "taskId": "4841033",
+      "credits": 20,
+      "endpoint": "/lux3d/v1/generate/img-to-3d/task/create",
+      "reused": false
+    },
+    {
+      "id": "greenwall",
+      "cap": "transplant",
+      "key": "greenwall",
+      "tags": [
+        "greenwall"
+      ],
+      "file": "models/greenwall.glb",
+      "bytes": 3610388,
+      "rawBytes": 13732360,
+      "taskId": "4841034",
+      "credits": 20,
+      "endpoint": "/lux3d/v1/generate/img-to-3d/task/create",
+      "reused": false
+    },
+    {
+      "id": "pv",
+      "cap": "transplant",
+      "key": "pv",
+      "tags": [
+        "pv"
+      ],
+      "file": "models/pv.glb",
+      "bytes": 1538580,
+      "rawBytes": 9259128,
+      "taskId": "4841037",
+      "credits": 20,
+      "endpoint": "/lux3d/v1/generate/img-to-3d/task/create",
+      "reused": false
+    },
+    {
+      "id": "shop",
+      "cap": "transplant",
+      "key": "shop",
+      "tags": [
+        "shop"
+      ],
+      "file": "models/shop.glb",
+      "bytes": 1324064,
+      "rawBytes": 8210968,
+      "taskId": "4841039",
+      "credits": 20,
+      "endpoint": "/lux3d/v1/generate/img-to-3d/task/create",
+      "reused": false
+    },
+    {
+      "id": "pavilion",
+      "cap": "transplant",
+      "key": "pavilion",
+      "tags": [
+        "pavilion"
+      ],
+      "file": "models/pavilion.glb",
+      "bytes": 770588,
+      "rawBytes": 5654692,
+      "taskId": null,
+      "credits": null,
+      "endpoint": "/lux3d/v1/generate/img-to-3d/task/create",
+      "reused": true
+    },
+    {
+      "id": "louver",
+      "cap": "revive",
+      "key": "百叶",
+      "tags": [
+        "百叶",
+        "遮阳",
+        "关节"
+      ],
+      "file": "models/louver.glb",
+      "bytes": 1288936,
+      "taskId": "4841731",
+      "credits": 20,
+      "endpoint": "/lux3d/v1/generate/img-to-3d/task/create"
+    },
+    {
+      "id": "patient-brick",
+      "cap": "repaint",
+      "key": "陶土砖",
+      "tags": [
+        "砖",
+        "陶土",
+        "红砖"
+      ],
+      "file": "models/patient-brick.glb",
+      "bytes": 2358416,
+      "taskId": "4841882",
+      "credits": 19,
+      "endpoint": "/lux3d/v1/generate/material-transfer/task/create"
+    }
+  ]
+}
